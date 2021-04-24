@@ -3,7 +3,11 @@
   width: 40%;
   margin-top: 30px;
 }
-
 .post-date{
   color: gray;
 }
+div[data-check="true"] {
+  background: #585555;
+}
+/* 条件分岐「div要素のdata-checkが"true"の時、
+すなわちメモが既読になった時」にのみ、背景色が変わるように設定 */
